@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, Black;
+    text-align: center;
+    margin: 0;
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Arial, Black;
+    font-size: 3.8em;  /* Makes the title big */
+    color: #08a622;    /* Sets the text color to green */
+    margin-bottom: -20px;  /* Optional: Adds some space below the title */
+    font-weight: 2000;
+}
+
+p {
+    background-color: black;
+    font-family: Arial, Italic;
+    font-size: 1.3em;  /* Makes the title big */
+    color: white; 
+    font-weight: 2000;
+    margin-bottom: 0px
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.1s;
+}
+
+#counter {
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+#leaderboard {
+    margin-top: 20px;
+}
