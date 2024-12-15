@@ -12,7 +12,7 @@ function playPumpSound() {
 
 // Get the user's IP address
 async function getUserIP() {
-    const response = await fetch("https://api.ipify.org?format=json");
+    const response = await fetch('https://your-backend-api-url.com/leaderboard');
     const data = await response.json();
     return data.ip;
 }
